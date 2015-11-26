@@ -1,0 +1,37 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#
+	var className = "CustomException";
+#>
+using System;
+using System.Runtime.Serialization;
+
+namespace Crap.Core
+{
+    [Serializable]
+    public class <#= className #> : Exception
+    {
+        public <#= className #>()
+        {
+        }
+
+        public <#= className #>(string message)
+            : base(message)
+        {
+        }
+
+        public <#= className #>(string message, Exception inner)
+            : base(message, inner)
+        {
+        }
+
+        protected <#= className #>(SerializationInfo info, StreamingContext context)
+            : base(info, context)
+        {
+        }
+    }
+}
