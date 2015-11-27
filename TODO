@@ -1,4 +1,4 @@
-SPA - Angular + Web API 2
+(*)SPA - Angular + Web API 2
 OData
 OAuth
 vNext
@@ -15,7 +15,9 @@ SignalR
 AutoMoq
 
 HTML5
-Javascript inheritance
+(*)Javascript inheritance
 Knockout.js
 Bootstrap.js/css
 jQuery review
+
+Git
