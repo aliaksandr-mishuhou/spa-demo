@@ -8,7 +8,7 @@
     function config($routeProvider) {
         $routeProvider
             .when("/", {
-                templateUrl: "/Views/Home/Index.html",
+                templateUrl: "/Views/Admin/Index.html",
                 controller: "indexCtrl"
             })
             .when("/category/edit", {

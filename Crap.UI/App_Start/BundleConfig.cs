@@ -15,12 +15,15 @@ namespace Crap.UI.App_Start
                 "~/Scripts/libs/angular.js",
                 "~/Scripts/libs/angular-route.js",
                 "~/Scripts/libs/angular-validator.js",
-                "~/Scripts/libs/angular-validator-rules.js"
+                "~/Scripts/libs/angular-validator-rules.js",
+                "~/Scripts/libs/toastr.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/app/common").Include(
                 "~/Scripts/app/modules/common.core.js",
-                "~/Scripts/app/modules/common.ui.js"
+                "~/Scripts/app/modules/common.ui.js",
+                "~/Scripts/app/services/api.js",
+                "~/Scripts/app/services/notification.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/app/admin").Include(

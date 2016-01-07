@@ -45,7 +45,7 @@ namespace Crap.UI.Controllers
         {
             try
             {
-                _log.Error(string.Empty, ex);
+                _log.Error(ex);
                 var error = new Error
                 {
                     Message = ex.Message,
@@ -55,9 +55,9 @@ namespace Crap.UI.Controllers
 
                 _errorRepository.Save(error);
             }
-            catch
+            catch (Exception eex)
             {
-                _log.Error("Error while logging error", ex);
+                _log.Error(eex);
             }
         }
 

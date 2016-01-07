@@ -154,3 +154,6 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/Crap.UI/node_modules
+/Crap.UI/bower_components
+/packages

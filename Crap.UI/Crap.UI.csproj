@@ -148,6 +148,7 @@
     <Content Include="Content\css\site.css" />
     <Content Include="Content\css\toastr.css" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\app\admin\categoriesCtrl.js" />
     <Content Include="Scripts\app\admin\indexCtrl.js" />
     <Content Include="Scripts\app\admin\rootCtrl.js" />
     <Content Include="Scripts\app\admin-app.js" />
@@ -186,7 +187,10 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\BaseApiController.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\StatsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -195,7 +199,9 @@
     <Compile Include="Validators\ProductValidator.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\CategoryViewModel.cs" />
+    <Compile Include="ViewModels\Mappings.cs" />
     <Compile Include="ViewModels\ProductViewModel.cs" />
+    <Compile Include="ViewModels\SummaryViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

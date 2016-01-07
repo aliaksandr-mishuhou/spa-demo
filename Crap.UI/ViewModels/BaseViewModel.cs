@@ -16,7 +16,7 @@ namespace Crap.UI.ViewModels
         //public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         //{
         //    var validator = new TValidator();
-        //    var result = validator.Validate(this);
+        //    var result = validator.Validate<TEntity>(this, null);
         //    return result.Errors.Select(item => new ValidationResult(item.ErrorMessage, new[] { item.PropertyName }));
         //}
     }

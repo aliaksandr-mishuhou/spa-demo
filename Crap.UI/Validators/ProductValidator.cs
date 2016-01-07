@@ -1,9 +1,9 @@
-﻿using Crap.Data.Entities;
+﻿using Crap.UI.ViewModels;
 using FluentValidation;
 
 namespace Crap.UI.Validators
 {
-    public class ProductValidator : AbstractValidator<Product>
+    public class ProductValidator : AbstractValidator<ProductViewModel>
     {
         public ProductValidator()
         {

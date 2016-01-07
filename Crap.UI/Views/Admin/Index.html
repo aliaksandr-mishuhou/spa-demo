@@ -1,1 +1,9 @@
-﻿<div>Admin index</div>
+﻿<div>Welcome!</div>
+
+<div ng-if="isLoading">Loading...</div>
+
+<div ng-hide="isLoading">
+    <div>Categories: {{totalCategories}}</div>
+    <div>Products: {{totalProducts}}</div>
+    <div>Orders: {{totalOrders}}</div>
+</div>

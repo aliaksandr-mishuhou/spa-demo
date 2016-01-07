@@ -1,9 +1,9 @@
-﻿using Crap.Data.Entities;
+﻿using Crap.UI.ViewModels;
 using FluentValidation;
 
 namespace Crap.UI.Validators
 {
-    public class CategoryValidator : AbstractValidator<Category>
+    public class CategoryValidator : AbstractValidator<CategoryViewModel>
     {
         public CategoryValidator()
         {
